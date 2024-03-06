@@ -1,0 +1,40 @@
+.reservation-container {
+    padding: 20px;
+}
+
+.reservation-list {
+    display: flex;
+    flex-direction: column; /* Display cards vertically */
+    gap: 20px;
+}
+
+.reservation-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 7px #888888;
+}
+.row {
+    margin-bottom: 10px;
+}
+
+.row strong {
+    margin-right: 5px;
+}
+.reservation-id {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.header-text{
+    font-family:"Segoe UI";
+    font-size:50px;
+    color:black;
+    font-weight: lighter;
+    margin-left:6px;
+    margin-top:13px;
+}

@@ -1,0 +1,40 @@
+.labels{
+    font-size:20px;
+    font-weight: lighter;
+}
+
+.submit-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:5px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+
+}
+.cancel-button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px; /* Added margin for spacing */
+    cursor: pointer;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+}
+.submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.cancel-button:hover {
+    background-color: darkred; /* Darker green on hover */
+}
